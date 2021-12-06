@@ -31,7 +31,7 @@ api=tweepy.API(authenticator,wait_on_rate_limit=True)
 def senti(sym):
     crypt=sym
     search=f'#{crypt} -filter:retweets'
-    tweet_cursor=tweepy.Cursor(api.searctweets,q=search,lang='en',tweet_mode='extended').items(100)
+    tweet_cursor=tweepy.Cursor(api.search_tweets,q=search,lang='en',tweet_mode='extended').items(100)
     tweets=[tweet.full_text for tweet in tweet_cursor]
     tweets_df=pd.DataFrame(tweets,columns=['Tweets'])
 
@@ -67,7 +67,7 @@ def senti(sym):
          "there are many other players who capitalised on the news, opened positions and made their moves. "
          "So unless you’re constantly checking for them, you won’t make the best possible trade. ")
     st.image(image1, use_column_width=True)
-    cols=st.beta_columns(2)
+    cols=st.columns(2)
     cols[0].header("Positive News")
     cols[0].write(positive)
     cols[1].header("Negative News")

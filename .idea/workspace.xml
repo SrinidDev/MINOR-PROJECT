@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a805e54-9239-4e5b-a8c7-a012a33746a9" name="Changes" comment="Requirements">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentimental_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimental_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -345,7 +346,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638822629248</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Requirements">
+      <created>1638822702599</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822702599</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Requirements">
+      <created>1638822738697</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822738697</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Requirements">
+      <created>1638822787581</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822787581</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
