@@ -48,8 +48,8 @@ def overview(start, end, df, mydict):
 
 
 def main():
-    df=load_workbook('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx')
-    #df = pd.read_excel('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx', engine='openpyxl')
+    #df=load_workbook('ticker.xlsx')
+    df = pd.read_excel('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx')
     st.header('Indian  Stock Market')
     st.subheader('The BSE and NSE')
     st.write("Most of the trading in the Indian stock market takes place on its two stock exchanges: "
