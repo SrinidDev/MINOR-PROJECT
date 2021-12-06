@@ -31,7 +31,7 @@ api=tweepy.API(authenticator,wait_on_rate_limit=True)
 def senti(sym):
     crypt=sym
     search=f'#{crypt} -filter:retweets'
-    tweet_cursor=tweepy.Cursor(api.search_tweets,q=search,lang='en',tweet_mode='extended').items(100)
+    tweet_cursor=tweepy.Cursor(api.search_tweet,q=search,lang='en',tweet_mode='extended').items(100)
     tweets=[tweet.full_text for tweet in tweet_cursor]
     tweets_df=pd.DataFrame(tweets,columns=['Tweets'])
 
