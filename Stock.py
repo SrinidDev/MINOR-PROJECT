@@ -48,7 +48,7 @@ def overview(start, end, df, mydict):
 
 def main():
 
-    df = pd.read_excel('ticker.xlsx', engine='openpyxl')
+    df = pd.read_excel('ticker.xlsx')
     st.header('Indian  Stock Market')
     st.subheader('The BSE and NSE')
     st.write("Most of the trading in the Indian stock market takes place on its two stock exchanges: "
