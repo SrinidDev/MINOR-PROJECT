@@ -3,7 +3,8 @@ from pandas_datareader import data as web
 import numpy as np
 
 import plotly.graph_objects as go
-
+from openpyxl import Workbook
+from openpyxl import load_workbook
 
 import cryptolinear
 
@@ -47,8 +48,8 @@ def overview(start, end, df, mydict):
 
 
 def main():
-
-    df = pd.read_excel('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx', engine='openpyxl')
+    df=load_workbook('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx')
+    #df = pd.read_excel('https://github.com/SrinidDev/MINOR-PROJECT/blob/master/ticker.xlsx', engine='openpyxl')
     st.header('Indian  Stock Market')
     st.subheader('The BSE and NSE')
     st.write("Most of the trading in the Indian stock market takes place on its two stock exchanges: "
