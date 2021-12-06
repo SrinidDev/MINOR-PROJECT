@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a805e54-9239-4e5b-a8c7-a012a33746a9" name="Changes" comment="Requirements">
-      <change beforePath="$PROJECT_DIR$/Bharthiairtel-lstm.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimental_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimental_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638823097569</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Requirements">
+      <created>1638823617631</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1638823617631</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
